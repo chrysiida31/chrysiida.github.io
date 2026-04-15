@@ -1,30 +1,18 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Chrysiida Drakopoulou – Portfolio
 
+This repository contains my personal portfolio website, built using HTML, CSS, and JavaScript.
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+## About
+I am an MSc student in Computer Science and Engineering at DTU, specializing in Artificial Intelligence and Algorithms.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Contents
+- About section
+- Projects (including a Multi-Agent AI system)
+- CV
+- Contact information
 
-(* = not included)
+## Live Website
+https://chrysiida31.github.io/
 
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## Credits
+This website is based on the "Dimension" template by HTML5 UP.
