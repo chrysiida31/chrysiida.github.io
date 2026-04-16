@@ -68,17 +68,61 @@
 
 							<h3>Multi-Agent AI for Hospital Planning</h3>
 							<p>
-								As part of my MSc at DTU, I worked on a group project to develop a Multi-Agent AI client for
-								solving planning problems in a hospital domain. The project involved designing coordination
-								strategies and efficient state representations for agents operating in a shared environment.
-							</p>
-							<p>
-								The system was optimized to perform under strict constraints, including time limits and
-								maximum action thresholds, requiring careful algorithmic design and performance tuning.
-								Through this project, I strengthened my skills in AI, search algorithms, and multi-agent systems.
+							As part of my MSc at DTU, I developed a multi-agent planning system for solving
+							Sokoban-style problems in a hospital domain. The system combines a decoupled
+							approach with Conflict-Based Search (CBS) to efficiently handle both low- and
+							high-conflict scenarios.
 							</p>
 
-							<p><strong>Technologies:</strong> Python, AI planning, search algorithms, multi-agent systems</p>
+							<p>
+							Each agent initially plans independently using A* search on a reduced state space.
+							When conflicts arise, the system switches to CBS, resolving collisions through
+							constraint-based coordination. Weighted A* was used to balance runtime performance
+							and solution quality under strict time and action constraints.
+							</p>
+
+							<p>
+							To improve efficiency, I implemented heuristic strategies (Manhattan distance,
+							assignment-based matching) and optimisations such as shared state representations
+							and conflict memoisation.
+							</p>
+
+							<p><strong>Key result:</strong> Achieved fast solutions on low-conflict maps while maintaining 
+								completeness in complex scenarios through hybrid planning.</p>
+
+							<p><strong>Technologies:</strong> Python, NumPy, SciPy, A*, CBS, multi-agent systems</p>
+
+
+							<span class="image main">
+								<img src="images/det_overlay.png" alt="2D vs 3D Face Recognition DET Curve"
+									style="width: 100%; height: 320px; object-fit: cover;">
+							</span>
+
+							<p style="font-size: 0.9em; opacity: 0.8;">
+							Comparison of 2D and 3D face recognition performance. The 2D model achieves near-perfect accuracy,
+							while 3D methods show higher error rates due to limitations in geometric descriptors.
+							</p>
+
+							<h3>Biometric Face Recognition (2D vs 3D)</h3>
+
+							<p>
+							Developed a biometric face recognition system comparing 2D and 3D approaches using the UMB-DB dataset.
+							The pipeline included data preprocessing, feature extraction, and evaluation under a verification protocol.
+							</p>
+
+							<p>
+							For the 2D modality, I used InsightFace to extract deep facial embeddings, while for 3D data I implemented
+							a pipeline based on point cloud processing and Fast Point Feature Histograms (FPFH) using Open3D.
+							</p>
+
+							<p>
+							I designed an evaluation framework generating genuine/impostor pairs and computing DET curves and Equal Error Rate (EER).
+							Results showed near-perfect performance for 2D recognition, while 3D remained significantly more challenging (~27–33% EER),
+							highlighting limitations of global geometric descriptors and the need for improved alignment or learned features.
+							</p>
+
+							<p><strong>Technologies:</strong> Python, NumPy, OpenCV, Open3D, InsightFace, SciPy</p>
+
 						</article>
 
 						<!-- CV -->
